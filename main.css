@@ -7,59 +7,65 @@ body {
 }
 
 
-.topthreeparagraphs { 
-  color: blue;
+.topthreeparagraphs {
+  color: black;
+  font-weight: 600;
+}
+
+img {
+  width: 150px;
+  height: 400px;
 }
 
 #firstfav {
   font-size: 30px;
-  font-weight: 700; 
+  font-weight: 700;
   color: green;
   text-align: center;
 }
 
 #secondfav {
-  font-size: 50px;
-  font-weight: 800; 
-  color: red;
+  font-size: 30px;
+  font-weight: 700;
+  color: green;
   text-align: center;
 }
 
 #thirdfav {
-  font-size: 70px;
-  font-weight: 400; 
-  color: gold;
+  font-size: 30px;
+  font-weight: 700;
+  color: green;
   text-align: center;
 }
 
 #fourthfav {
-  font-size: 60px;
-  font-weight: 500; 
-  color: orange;
+  font-size: 30px;
+  font-weight: 700;
+  color: green;
   text-align: center;
 }
 
 #quotes {
   font-weight: bold;
-  text-align: center;  
+  text-align: center;
 }
 
 #firstquote {
-  color: red;
-  font-size: 20px;
-  font-family: "Times New Roman" 
+  color: dark blue;
+  font-size: 18px;
+  font-family: "Times New Roman"
 }
 
 #secondquote {
-  color: purple;
-  font-size: 25px;
-  font-family: "Calibri" 
+  color: dark blue;
+  font-size: 18px;
+  font-family: "Times New Roman"
 }
 
 #thirdquote {
-  color: orange;
-  font-size: 15px;
-  font-family: "Georgia" 
+  color: dark blue;
+  font-size: 18px;
+  font-family: "Times New Roman"
 }
 
 header {
@@ -92,8 +98,8 @@ header p {
   align-items: center;
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5yxE3gw7U6qeSnA9k7-oOIYLTR7e1eF_coYcMpkZOP6y39pStDA');
   background-size: cover;
+  height: 700px;
   color: #ffffff;
-  height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -105,7 +111,7 @@ header p {
 }
 
 .jumbotron h3 {
-  margin: 0 0 20px;
+  margin: 0 0 30px;
   color: #fff;
 }
 
@@ -152,6 +158,6 @@ footer ul {
 }
 
 footer li img {
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
 }
